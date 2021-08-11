@@ -4,7 +4,7 @@ pipeline {
 			stages {
 				stage('Source'){
 					steps{
-						checkout(git 'https://github.com/SzewskiJanusz/WebAppJenkinsDemo.git')
+						checkout([$class: 'GitSCM', branches: [[name: '*/master']], userRemoteConfigs: [[url: 'https://github.com/SzewskiJanusz/WebAppJenkinsDemo.git']]])
 					}
 				}
 				stage('Build') {
