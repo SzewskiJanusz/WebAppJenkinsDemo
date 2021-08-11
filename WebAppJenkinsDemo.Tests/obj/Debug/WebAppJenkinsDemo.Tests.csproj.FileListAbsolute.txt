@@ -17,7 +17,6 @@ D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\System.Web.WebPa
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\System.Web.Razor.dll
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\WebAppJenkinsTest.pdb
-D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\WebAppJenkinsTest.dll.config
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\nunit.framework.xml
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\WebDriver.xml
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\System.Web.Optimization.xml
@@ -26,8 +25,7 @@ D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\System.Web.WebPa
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\System.Web.Razor.xml
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
-D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\obj\Debug\WebAppJenkinsDemo.Tests.csproj.AssemblyReference.cache
-D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\obj\Debug\WebAppJenkinsDemo.Tests.csproj.CoreCompileInputs.cache
-D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\obj\Debug\WebAppJenkinsDemo.Tests.csproj.CopyComplete
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\obj\Debug\WebAppJenkinsDemo.Tests.dll
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\obj\Debug\WebAppJenkinsDemo.Tests.pdb
+D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\WebAppJenkinsDemo.Tests.dll.config
+D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\obj\Debug\WebAppJenkinsDemo.Tests.csprojResolveAssemblyReference.cache

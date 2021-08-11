@@ -19,7 +19,7 @@ namespace WebAppJenkinsDemo.Tests.UITests
         public void SetUp()
         {
             _driver = new ChromeDriver();
-            _driver.Navigate().GoToUrl("https://localhost:44359/");
+            _driver.Navigate().GoToUrl("http://localhost:44359/");
             _driver.Manage().Window.Minimize();
         }
 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="2" result="Failed" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="1" engine-version="3.11.1.0" clr-version="4.0.30319.42000" start-time="2021-08-11 07:36:47Z" end-time="2021-08-11 07:37:00Z" duration="12.969906">
+  <command-line><![CDATA[nunit3-console.exe  D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\WebAppJenkinsDemo.Tests.dll]]></command-line>
+  <test-suite type="Assembly" id="0-1004" name="WebAppJenkinsDemo.Tests.dll" fullname="D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\bin\Debug\WebAppJenkinsDemo.Tests.dll" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2021-08-11T07:36:49.0280417Z" end-time="2021-08-11T07:37:00.8728930Z" duration="11.843362" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.13.2.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.19041.0" platform="Win32NT" cwd="D:\projekty\WebAppJenkinsDemo\packages\NUnit.ConsoleRunner.3.11.1\tools" machine-name="DESKTOP-6BNCV5T" user="Aleksander" user-domain="DESKTOP-6BNCV5T" culture="pl-PL" uiculture="pl-PL" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\projekty\WebAppJenkinsDemo\packages\NUnit.ConsoleRunner.3.11.1\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.7.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="RuntimeFramework" value="net-4.0" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="38612" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1005" name="WebAppJenkinsDemo" fullname="WebAppJenkinsDemo" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2021-08-11T07:36:49.0580373Z" end-time="2021-08-11T07:37:00.8728930Z" duration="11.814899" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1006" name="Tests" fullname="WebAppJenkinsDemo.Tests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2021-08-11T07:36:49.0580373Z" end-time="2021-08-11T07:37:00.8728930Z" duration="11.813980" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1008" name="UITests" fullname="WebAppJenkinsDemo.Tests.UITests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2021-08-11T07:36:49.0580373Z" end-time="2021-08-11T07:37:00.8598979Z" duration="11.801873" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1002" name="WebAppTest" fullname="WebAppJenkinsDemo.Tests.UITests.WebAppTest" classname="WebAppJenkinsDemo.Tests.UITests.WebAppTest" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2021-08-11T07:36:49.0620384Z" end-time="2021-08-11T07:37:00.8598979Z" duration="11.797901" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="0">
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-case id="0-1003" name="Can_GoToContact_CheckAddress" fullname="WebAppJenkinsDemo.Tests.UITests.WebAppTest.Can_GoToContact_CheckAddress" methodname="Can_GoToContact_CheckAddress" classname="WebAppJenkinsDemo.Tests.UITests.WebAppTest" runstate="Runnable" seed="459638680" result="Failed" label="Error" start-time="2021-08-11T07:36:49.0670379Z" end-time="2021-08-11T07:37:00.8463045Z" duration="11.779287" asserts="0">
+              <failure>
+                <message><![CDATA[OpenQA.Selenium.WebDriverException : unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=92.0.4515.131)]]></message>
+                <stack-trace><![CDATA[   w OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   w OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   w WebAppJenkinsDemo.Tests.UITests.WebAppTest.SetUp() w D:\projekty\WebAppJenkinsDemo\WebAppJenkinsDemo.Tests\UITests\WebAppTest.cs:wiersz 22]]></stack-trace>
+              </failure>
+            </test-case>
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestSuite" id="0-1007" name="UnitTests" fullname="WebAppJenkinsDemo.Tests.UnitTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-08-11T07:36:49.0590392Z" end-time="2021-08-11T07:37:00.8728930Z" duration="11.813887" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-suite type="TestFixture" id="0-1000" name="CalculatorTest" fullname="WebAppJenkinsDemo.Tests.UnitTests.CalculatorTest" classname="WebAppJenkinsDemo.Tests.UnitTests.CalculatorTest" runstate="Runnable" testcasecount="1" result="Passed" start-time="2021-08-11T07:37:00.8638943Z" end-time="2021-08-11T07:37:00.8728930Z" duration="0.008404" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="0-1001" name="IsEven_InputIs5_ReturnFalse" fullname="WebAppJenkinsDemo.Tests.UnitTests.CalculatorTest.IsEven_InputIs5_ReturnFalse" methodname="IsEven_InputIs5_ReturnFalse" classname="WebAppJenkinsDemo.Tests.UnitTests.CalculatorTest" runstate="Runnable" seed="282334023" result="Passed" start-time="2021-08-11T07:37:00.8638943Z" end-time="2021-08-11T07:37:00.8728930Z" duration="0.008162" asserts="1" />
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

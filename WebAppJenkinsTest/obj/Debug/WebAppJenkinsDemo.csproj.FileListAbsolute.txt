@@ -1,4 +1,3 @@
-D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\bin\WebAppJenkinsTest.dll.config
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\bin\WebAppJenkinsTest.dll
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\bin\WebAppJenkinsTest.pdb
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\bin\roslyn\csc.exe
@@ -72,7 +71,6 @@ D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\bin\System.Web.WebPages.Razor.xm
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\bin\Newtonsoft.Json.xml
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\bin\Antlr3.Runtime.pdb
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\obj\Debug\WebAppJenkinsDemo.csproj.CoreCompileInputs.cache
-D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\obj\Debug\WebAppJenkinsDemo.csproj.CopyComplete
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\obj\Debug\WebAppJenkinsTest.dll
 D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\obj\Debug\WebAppJenkinsTest.pdb
+D:\projekty\WebAppJenkinsDemo\WebAppJenkinsTest\obj\Debug\WebAppJenkinsDemo.csprojResolveAssemblyReference.cache
