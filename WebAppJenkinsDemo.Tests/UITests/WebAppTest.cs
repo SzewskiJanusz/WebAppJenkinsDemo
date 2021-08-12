@@ -18,7 +18,9 @@ namespace WebAppJenkinsDemo.Tests.UITests
         [SetUp]
         public void SetUp()
         {
-            _driver = new ChromeDriver();
+            var options = new ChromeOptions();
+            options.AddArgument("no-sandbox");
+            _driver = new ChromeDriver(options);
             _driver.Navigate().GoToUrl("http://localhost:44359/");
             _driver.Manage().Window.Minimize();
         }
