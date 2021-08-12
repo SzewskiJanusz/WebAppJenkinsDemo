@@ -20,6 +20,7 @@ namespace WebAppJenkinsDemo.Tests.UITests
         {
             var options = new ChromeOptions();
             options.AddArgument("no-sandbox");
+            options.AddArgument("--allow-insecure-localhost");
             _driver = new ChromeDriver(options);
             _driver.Navigate().GoToUrl("http://localhost:44359/");
             _driver.Manage().Window.Minimize();
