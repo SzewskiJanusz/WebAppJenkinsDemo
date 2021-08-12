@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
@@ -20,7 +21,7 @@ namespace WebAppJenkinsDemo.Tests.UITests
         {
             var options = new ChromeOptions();
             options.AddArgument("no-sandbox");
-            options.AddArgument("--allow-insecure-localhost");
+            options.AddArgument("ignore-certificate-errors");
             _driver = new ChromeDriver(options);
             _driver.Navigate().GoToUrl("http://localhost:44359/");
             _driver.Manage().Window.Minimize();
